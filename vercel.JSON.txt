@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+
+	/*   যদি 404: NOT_FOUND দেখায় তাহলে github এ vercel.json নামে একটা
+	repository creat করে সেখাবে এগোলো past করতে হবে   */
+
+	{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
